@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChurruminoFCMovil.Android", "ChurruminoFCMovil.Android\ChurruminoFCMovil.Android.csproj", "{FFD05100-C54B-4111-8C5C-9F0A687BF594}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChurruminoFCMovil", "ChurruminoFCMovil\ChurruminoFCMovil.csproj", "{17D7168D-1ABF-4D43-99D4-7ADD9E52F536}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFD05100-C54B-4111-8C5C-9F0A687BF594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFD05100-C54B-4111-8C5C-9F0A687BF594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFD05100-C54B-4111-8C5C-9F0A687BF594}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FFD05100-C54B-4111-8C5C-9F0A687BF594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFD05100-C54B-4111-8C5C-9F0A687BF594}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFD05100-C54B-4111-8C5C-9F0A687BF594}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{17D7168D-1ABF-4D43-99D4-7ADD9E52F536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17D7168D-1ABF-4D43-99D4-7ADD9E52F536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17D7168D-1ABF-4D43-99D4-7ADD9E52F536}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{17D7168D-1ABF-4D43-99D4-7ADD9E52F536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17D7168D-1ABF-4D43-99D4-7ADD9E52F536}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17D7168D-1ABF-4D43-99D4-7ADD9E52F536}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C10F3EE-8FF3-4A6F-BA01-96A4F32B75B9}
+	EndGlobalSection
+EndGlobal

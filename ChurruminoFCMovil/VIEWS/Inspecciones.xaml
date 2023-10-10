@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ChurruminoFCMovil.VIEWS.Inspecciones">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Inspecciones"/>
+    </ContentPage.ToolbarItems>
+    
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Inspecciones"/>
+            <Label Text="Proyecto"/>
+            <Entry/>
+            <Label Text="Fecha" />
+            <DatePicker/>
+            <Label Text="Hora"/>
+            <TimePicker/>
+            <Label Text="Lugar"/>
+            <Entry/>
+            <Label Text="Observaciones"/>
+            <Editor/>
+            <Label Text="Fotos"/>
+            <Button Text="Tomar Foto"/>
+            <Button Text="Seleccionar Foto"/>
+            <Label Text="Ver fotos miniatura"/>
+            <Image/>
+            <Button Text="Vista Previa"/>
+            
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

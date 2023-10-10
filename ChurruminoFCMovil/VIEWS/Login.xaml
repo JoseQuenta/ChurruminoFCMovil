@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ChurruminoFCMovil.VIEWS.Login">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Correo" />
+            <Entry x:Name="txtCorreo" Keyboard="Email" Placeholder="@gmail.com"/>
+            <Label Text="Contraseña" />
+            <Entry x:Name="txtContrasena" IsPassword="True" Placeholder="Contraseña" Keyboard="Numeric"/>
+            <Button Text="Iniciar Sesión"/>
+            <!--agregar olvidaste tu contraseña ...-->
+            
+            <Label FontSize="16" Padding="30,24,30,0">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="Olvidaste tu contraseña?"/>
+                            <Span Text="Recuperar aqui" FontAttributes="Bold" TextColor="Red"/>
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
