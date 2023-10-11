@@ -1,7 +1,5 @@
 ﻿using ChurruminoFCMovil.VIEWS;
-using System;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace ChurruminoFCMovil
 {

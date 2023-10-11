@@ -7,7 +7,6 @@
         <ToolbarItem Text="Inspecciones"/>
     </ContentPage.ToolbarItems>
     
-    
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Inspecciones"/>
@@ -27,8 +26,6 @@
             <Label Text="Ver fotos miniatura"/>
             <Image/>
             <Button Text="Vista Previa"/>
-            
-
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
